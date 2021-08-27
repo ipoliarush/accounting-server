@@ -1,0 +1,18 @@
+{
+  "name": "accounting-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "server": "node server",
+    "nodemon": "nodemon server"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "type": "module"
+}
